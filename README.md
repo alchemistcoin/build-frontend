@@ -1,19 +1,11 @@
-# TurtleCoin® Open Issues Browser
-TurtleCoin® Open Issues Browser v2020 - Live site: [turtlecoin.github.io/trtl-issues/](https://turtlecoin.github.io/trtl-issues/)
+# Alchemist Build Joblist
 
-![screely-1598493729772](https://user-images.githubusercontent.com/8020386/91375139-71a4b680-e84c-11ea-8503-7f3774678224.png)
+Welcome to Alchemist Build Joblist repo. This has been created from a fork of `turtlecoin/trtl-issues` created by TurtleCoin.
 
-### Contributing to TurtleCoin® Open Issues Browser
+## Purpose
 
-We are a community of people across the world giving our time to make this software better. There are many ways you can help or join us:
+This board has been created to list tasks that are available for community contribution, whether these are bounty based, incentive based or open to general contribution.
 
--   If you'd like to report a bug or have an idea for an improvement, [open an issue](https://github.com/turtlecoin/trtl-issues/issues/new).
--   If you'd like to submit code for a bug you fixed, [submit a pull-request](https://github.com/turtlecoin/trtl-issues/compare).
--   **Everyone else just click the ★ star at the top of this repository 😊 It really helps us out!**
+## Issues
 
-For anyone else wishing to help the community or who needs answers to questions not covered in this document, join us in our [Discord Chat](http://chat.turtlecoin.lol) here.
-
-### Credits
-- TurtleCoin - [https://github.com/turtlecoin](https://github.com/turtlecoin)
-- TurtlePay - [https://github.com/TurtlePay](https://github.com/TurtlePay)
-- Tabler - [https://github.com/tabler/tabler](https://github.com/tabler/tabler)
+If you have any issues with the site, please reach out to the team on [Discord](https://discord.alchemist.wtf)
