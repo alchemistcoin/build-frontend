@@ -69,11 +69,7 @@ async function fetchRepoIssues(repo) {
         },
     });
 
-    let issues = await issueRes.json();
-
-    if (issues === undefined) {
-        return;
-    }
+    let issues = await issueRes.json() | {};
 
     issues = issues.filter((i) => !i.pull_request);
 
