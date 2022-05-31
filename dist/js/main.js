@@ -153,7 +153,7 @@ async function fetchRepoIssues(repo) {
 }
 
 async function loadGithubIssues() {
-    const useLocalIssues = true;
+    const useLocalIssues = false;
 
     const issuesURL = useLocalIssues
         ? './repos.json'
