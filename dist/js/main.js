@@ -1,5 +1,5 @@
 function fixDate(date) {
-	return date.slice(0, date.indexOf('T'))
+    return date.slice(0, date.indexOf('T'))
 }
 
 function createRepoHeaderHTML(repo, numIssues) {
@@ -70,6 +70,10 @@ async function fetchRepoIssues(repo) {
     });
 
     let issues = await issueRes.json();
+
+    if (issues === undefined) {
+        return;
+    }
 
     issues = issues.filter((i) => !i.pull_request);
 
@@ -213,7 +217,7 @@ async function loadGithubIssues() {
         }
 
         bodySideBar.style.display = 'block';
-		$('[data-toggle="tooltip"]').tooltip();
+        $('[data-toggle="tooltip"]').tooltip();
     } catch (err) {
         alert(`Failed to fetch data: ${err.toString()}`);
     }
