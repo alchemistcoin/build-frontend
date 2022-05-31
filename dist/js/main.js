@@ -73,11 +73,13 @@ async function fetchRepoIssues(repo) {
 
     issues = await issueRes.json();
 
-    issues = issues.filter((i) => !i.pull_request);
+    alert('length is',issues.length)
 
     if (issues.length === 0) {
         return;
     }
+
+    issues = issues.filter((i) => !i.pull_request);
 
     const repoDiv = document.createElement('div');
     repoDiv.id = repo.name;
