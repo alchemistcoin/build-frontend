@@ -1,2 +1,8 @@
 [[plugins]]
 package = '@netlify-tools/netlify-plugin-env'
+
+[[redirects]]
+from = "/get/*"
+to = "/.netlify/functions/get-github-issues/:splat"
+status = 200
+force = true

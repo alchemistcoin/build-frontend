@@ -63,7 +63,7 @@ function createCommentSVG() {
 }
 
 async function fetchRepoIssues(repo) {
-    const issueRes = await fetch(`https://api.github.com/repos/${repo.full_name}/issues`, {
+    const issueRes = await fetch(`/get/?repo=${repo.full_name}`, {
         headers: {
             Authorization: '',
         },
@@ -157,7 +157,7 @@ async function loadGithubIssues() {
 
     const issuesURL = useLocalIssues
         ? './repos.json'
-        : 'https://api.github.com/orgs/alchemistcoin/repos?sort=updated';
+        : '/get/';
 
     try {
         const res = await fetch(issuesURL, {
