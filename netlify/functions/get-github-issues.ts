@@ -1,3 +1,5 @@
+import fetch from "node-fetch";
+
 const handler = async (event) => {
     if (event.httpMethod !== 'GET') {
         return {
