@@ -27,7 +27,7 @@ body {
 }
 
 .navbar-dark {
-	background: #43b380;
+	background: #060B1A;
 }
 
 .navbar-nav .nav-item {
@@ -35,11 +35,11 @@ body {
 }
 
 a {
-	color: #43b380;
+	color: #7123C9;
 }
 
 a:hover {
-	color: #3ca173;
+	color: #8244ca;
 }
 
 a.link-bg {
@@ -65,7 +65,7 @@ a.link-bg:hover {
 }
 
 .nav-tabs .nav-link.active {
-	border-bottom-color: #43b380;
+	border-bottom-color: #141d3a;
 }
 
 .table th {
@@ -88,7 +88,7 @@ a.link-bg:hover {
 }
 
 .bg-green {
-	background: #43b380;
+	background: #060B1A;
 }
 
 .text-break {
@@ -133,6 +133,6 @@ a.link-bg:hover {
 	font-weight: 500;
 }
 
-#feed a {color: #43b380;}
+#feed a {color: #7123C9;}
 
-#feed a:hover {color: #3ca173;}
+#feed a:hover {color: #8244ca;}
