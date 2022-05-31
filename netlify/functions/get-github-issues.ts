@@ -24,7 +24,8 @@ const handler = async (event) => {
                     Authorization: 'token '+process.env.GITHUB_TOKEN,
                 },
             });
-
+            console.log('result for specific repo',repo)
+            console.log(issueRes)
             issues = await issueRes.json();
 
         } else {
@@ -35,6 +36,8 @@ const handler = async (event) => {
                 },
             });
 
+            console.log('result for alchemistcoin');
+            console.log(res)
             issues = await res.json();
 
         }
