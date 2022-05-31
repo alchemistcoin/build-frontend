@@ -153,7 +153,7 @@ async function loadGithubIssues() {
 
     const issuesURL = useLocalIssues
         ? './repos.json'
-        : 'https://api.github.com/orgs/turtlecoin/repos?sort=updated';
+        : 'https://api.github.com/orgs/alchemistcoin/repos?sort=updated';
 
     try {
         const res = await fetch(issuesURL, {
