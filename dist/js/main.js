@@ -69,7 +69,7 @@ async function fetchRepoIssues(repo) {
         },
     });
 
-    let issues = await issueRes.json() | {};
+    let issues = await issueRes.json() | [];
 
     issues = issues.filter((i) => !i.pull_request);
 
