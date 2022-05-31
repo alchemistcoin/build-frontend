@@ -44,7 +44,7 @@ const handler = async (event) => {
 
         return {
             statusCode: 200,
-            body: issues,
+            body: JSON.stringify(issues),
             headers: {
                 'Access-Control-Allow-Origin': '*'
             }
